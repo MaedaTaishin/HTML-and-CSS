@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>Inquiry form</h1>
+        <form action="receive.html" method="post">
+            <dl>
+                <dt>Name</dt>
+                <dd>
+                    <input type="text" name="your_name">
+                </dd>
+                <dt>Email address</dt>
+                <dd>
+                    <input type="text" name="your_email adress">
+                </dd>
+                <dt>Inquiry store</dt>
+                <dd>
+                    <ul>
+                        <li><input type="radio" name="store" value="Tokyo head office">Tokyo head office</li>
+                        <li><input type="radio" name="store" value="Osaka store">Osaka store</li>
+                        <li><input type="radio" name="store" value="Fukuoka store">Fukuoka store</li>
+                    </ul>
+                </dd>
+                <dt>Inquiry type</dt>
+                <dd>
+                    <select name="types">
+                        <option value="Inquiries about products">Inquiries about products</option>
+                        <option value="Inquiries about our company">Inquiries about our company</option>
+                        <option value="Inquiries about job offers">Inquiries about job offers</option>
+                        <option value="Other inquiries">Other inquiries</option>
+                    </select>
+                </dd>
+                <dt>Contents of inquiry</dt>
+                <dd>
+                    <textarea name="message" cols="30" rows="10"></textarea>
+                </dd>
+            </dl>
+            <p><input type="submit" value="To input confirmation screen"></p>
+        </form>
+    </body>
+</html>
